@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 200px;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 200px;
+}
+
+.box {
+    display: flex;
+    /* margin: 10px; */
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: purple;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.pepa {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.first-box {
+}
+
+.second-box {
+    flex-direction: column;
+}
+
+.third-box {
+    flex-wrap: wrap;
+}
+
+.four-box {
+    justify-content: space-between;
+}
+
+.fives-box {
+}
+
+.sixs-box {
+    justify-content: end;
+}
+
+.sevens-box {
+    justify-content: center;
+}
+
+.eights-box {
+    justify-content: space-between;
+}
+
+.nines-box {
+    align-items: end;
+}
+
+.tens-box {
+    align-items: center;
+}
+
+.elevens-box {
+    justify-content: space-around;
+}
